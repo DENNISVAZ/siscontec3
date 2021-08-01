@@ -1,0 +1,17 @@
+.idea
+.DS_Store
+*.sqlite3
+venv
+*.pyc
+siscontec/__pycache__/
+siscontec.pem
+media
+static
+uwsgi.ini
+uwsgi_params
+*.bak
+*.dat
+*.pid
+*.dir
+local_settings.py
+.env

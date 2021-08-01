@@ -1,0 +1,14 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %} SISCONTEC </title>
+    {% include '_head.html' %}
+</head>
+<body>
+    {% block main%}    {% endblock %}
+    {% include '_scripts.html' %}
+    {% block footer %} {% endblock %}
+</body>
+</html>
